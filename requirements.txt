@@ -7,7 +7,6 @@ itsdangerous==2.0.1
 Jinja2==3.0.1
 joblib==1.0.1
 MarkupSafe==2.0.1
-olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
 pandas==1.3.2
 Pillow @ file:///C:/ci/pillow_1625663294916/work
 python-dateutil==2.8.2
