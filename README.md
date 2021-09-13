@@ -26,10 +26,10 @@ NeuralStyleTransferWebApp is basically a web app which does what it says :), any
 3. Give user flexibility to choose torchvision model on their own , here i used pretrained VGG19.
 
 ## Dependencie
--Flask
--Pytorch
--Torchvision
--Pillow
+- Flask
+- Pytorch
+- Torchvision
+- Pillow
 
 ## What the app looks like
 # First Page
