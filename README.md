@@ -2,10 +2,10 @@
 NeuralStyleTransferWebApp is basically a web app which does what it says :), anyways it's take two images from user , one is content image and other is style image and it basically generate a new image whose content is like of content image but with the style of style image, thus it lets you transform images into different styles.
 
 ## How to run the app
-1.Either fork or downlod app files.
-2.Install all dependencies given in requirements.txt file in cmd using  pip install -r requirements.txt
-3.run the file app.py in cmd , you will get local host http://127.0.0.1:5000/ 
-4.Now open the url in web browser.
+1. Either fork or downlod app files.
+2. Install all dependencies given in requirements.txt file in cmd using  pip install -r requirements.txt
+3. run the file app.py in cmd , you will get local host http://127.0.0.1:5000/ 
+4. Now open the url in web browser.
 
 ## How to use app
 1.Select content image that need to transformed and style image whose style will be used to transform content image.
