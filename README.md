@@ -30,6 +30,10 @@ NeuralStyleTransferWebApp is basically a web app which does what it says :), any
 - Pytorch
 - Torchvision
 - Pillow
+# Images i used 
+![alt text](https://github.com/kashif-flask/NeuralStyleTransferWebApp/blob/main/cat.png)
+
+![alt text](https://github.com/kashif-flask/NeuralStyleTransferWebApp/blob/main/style1.png)
 
 ## What the app looks like
 # First Page
