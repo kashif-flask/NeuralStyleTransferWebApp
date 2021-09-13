@@ -22,7 +22,7 @@ NeuralStyleTransferWebApp is basically a web app which does what it says :), any
 
 ## Future fetaures
 1. Make it more beautiful to look, i wish i was good in web designing :(.
-2. Deploy on some web server , it tried to deploy on heroku but free version won't take such a big model (Broke me ;{ ), but people can try deploying on other platform like google cloud platform, you have to provide your card details their.
+2. Deploy on some web server , it tried to deploy on heroku but free version won't take such a big model (Broke me ☹ ), but people can try deploying on other platform like google cloud platform, you have to provide your card details their.
 3. Give user flexibility to choose torchvision model on their own , here i used pretrained VGG19.
 
 ## Dependencie
@@ -32,11 +32,11 @@ NeuralStyleTransferWebApp is basically a web app which does what it says :), any
 -Pillow
 
 ## What the app looks like
-First Page
+# First Page
 
 ![alt text](https://github.com/kashif-flask/NeuralStyleTransferWebApp/blob/main/First_page.PNG)
 
-After transform
+# After transform
 
 
 ![alt text](https://github.com/kashif-flask/NeuralStyleTransferWebApp/blob/main/generated.PNG)
