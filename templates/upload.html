@@ -1,0 +1,94 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="{{url_for('static',filename='css/bootstrap.min.css')}}" rel="stylesheet">
+	<script type="text/javascript" src=""{{url_for('static',filename='css/bootstrap.bundle.min.js')}}""></script>
+	<title>Python Flask File Upload Example</title>
+    <h2>Select files to upload</h2>
+
+</head>
+<p>
+	{% with messages = get_flashed_messages() %}
+	  {% if messages %}
+		<ul>
+		{% for message in messages %}
+	      <div class="alert alert-primary" role="alert">
+		  <li>{{ message }}</li>
+		  </div>
+		{% endfor %}
+		</ul>
+	  {% endif %}
+	{% endwith %}
+</p>
+{% if filename %}
+	<div>
+		<a href="{{url_for('static',filename='uploads/'+filename)}}" download>
+			<img src="{{ url_for('display_image', filename=filename) }}">
+		</a>
+
+	</div>
+
+{% endif %}
+<form method="post" action="/" enctype="multipart/form-data">
+    <dl>
+		<dt>
+			<p>
+
+				<label for="cont_img">Content Image:</label>
+			<input type="file" name="file" id="cont_img" autocomplete="off" required>
+		    </p>
+		</dt>
+
+		<dt>
+			<p>
+
+				<label for="styl_img">Style Image:</label>
+			<input type="file" name="file1" id="styl_img" autocomplete="off" required>
+		    </p>
+		</dt>
+		<dt>
+			<p>
+			<label for="lr">Learning Rate(btw 0 and 0.1):</label>
+			<input type="number" name="lr" id="lr" value="0.01"  min="0" step="any" max="0.1">
+		    </p>
+		</dt>
+		<dt>
+			<p>
+			<label for="alpha">Content Loss Weight(min 0):</label>
+			<input type="number" name="alpha" id="alpha" value="1" min="0" step="any">
+		    </p>
+		</dt>
+		<dt>
+			<p>
+			<label for="beta">Style Loss Weight(min 0):</label>
+			<input type="number" name="beta" id="beta" value="0.01" min="0" step="any">
+		    </p>
+		</dt>
+		<dt>
+			<p>
+			<label for="img_width">Output Image Width(Between 50 and 400,bigger image will take more time to process):</label>
+			<input type="number" name="img_width" id="img_width" value="256" min="50" max="400" step="1">
+		    </p>
+		</dt>
+		<dt>
+			<p>
+			<label for="img_height">Output Image Height(Between 50 and 400,bigger image will take more time to process):</label>
+			<input type="number" name="img_height" id="img_height" value="256" min="50" max="400" step="1">
+		    </p>
+		</dt>
+		<dt>
+			<p>
+			<label for="steps">Number of steps of training(more steps , more time take but better result):</label>
+			<input type="number" name="steps" id="steps" value="100" min="0" step="1">
+		    </p>
+		</dt>
+
+    </dl>
+
+    <p>
+		<input type="submit" value="Submit">
+	</p>
+</form>
+</html>
