@@ -8,12 +8,12 @@ NeuralStyleTransferWebApp is basically a web app which does what it says :), any
 4. Now open the url in web browser.
 
 ## How to use app
-1.Select content image that need to transformed and style image whose style will be used to transform content image.
-2.Make sure you only use png,jpeg and jpg format files otherwise it will not accept.
-3.Select learning rate at which to update pixels of content image ,default 0.01, smaller the number more steps you require to bring desirable change in your content image but more refined result will be.
-4.Select content loss weight and style loss weight, it basically tells how much importance is given to content image's content and style image's style in final generated image.
-5.Output image width and height, what shape output image should be, max is 400 size because my GPU of 4GB wasn't allowing bigger image to train ;(.
-6.Number of steps of training,it lets you choose number of iterations to update your content image with style image, greater the number of steps better the result will be but it will take longer.
+1. Select content image that need to transformed and style image whose style will be used to transform content image.
+2. Make sure you only use png,jpeg and jpg format files otherwise it will not accept.
+3. Select learning rate at which to update pixels of content image ,default 0.01, smaller the number more steps you require to bring desirable change in your content image but more refined result will be.
+4. Select content loss weight and style loss weight, it basically tells how much importance is given to content image's content and style image's style in final generated image.
+5. Output image width and height, what shape output image should be, max is 400 size because my GPU of 4GB wasn't allowing bigger image to train ;(.
+6. Number of steps of training,it lets you choose number of iterations to update your content image with style image, greater the number of steps better the result will be but it will take longer.
 7. Simply click on Submit button.
 
 ## Features
