@@ -1,5 +1,5 @@
 # NeuralStyleTransferWebApp
-NeuralStyleTransferWebApp is basically a web app which does what it says :), anyways it's take two images from user , one is content image and other is style image and it basically generate a new image whose content is like of content image but with the style of style image, thus it lets you transform images into different styles.
+NeuralStyleTransferWebApp is basically a web app which does what it says :), anyways it's take two images from user , one is content image and other is style image and it basically generate a new image whose content is like of content image but with the style of style image, thus it lets you transform images into different styles. It uses deep learning technique called "Neural Style Transfer" to transform the image.
 
 ## How to run the app
 1. Either fork or downlod app files.
