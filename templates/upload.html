@@ -9,6 +9,7 @@
     <h2>Select files to upload</h2>
 
 </head>
+<body>
 <p>
 	{% with messages = get_flashed_messages() %}
 	  {% if messages %}
@@ -91,4 +92,6 @@
 		<input type="submit" value="Submit">
 	</p>
 </form>
+<div id="loading-indicator" style="display:none;">Loading, please wait...</div>
+</body>
 </html>
