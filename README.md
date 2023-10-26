@@ -8,6 +8,7 @@ NeuralStyleTransferWebApp is basically a web app which does what it says :), any
 3. run the file app.py in cmd , you will get local host http://127.0.0.1:5000/ 
 4. Now open the url in web browser.
 5. You can also create docker image by writing command in cmd:"docker build -t styletransferapp . " and then just run the image cmd:docker run -p 5000:5000 styletransferapp, now you can run the app on localhost:5000
+6. If you want to run just the app and don't need code, then pull image from my docker hub , write in cmd: docker pull kashif09/styletransferapp:latest and then just run as in step 5
 
 ## How to use app
 1. Select content image that need to transformed and style image whose style will be used to transform content image.
